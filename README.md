@@ -1,4 +1,5 @@
 # Utazóügynök probléme - mesterséges intelligencia
+[Link a fő repository-hoz](https://github.com/R1chard2001/ai-hanoi)
 ## Heurisztikus kereső
 A kereső operátorok közül azt választja ki, amely a legközelebb vinné a célhoz. Egyszerűbb algoritmus, ha egy mélységen alkalmazzuk ezt.
 
