@@ -13,7 +13,7 @@ namespace AI_TSP
             int index = currentNode.OperatorIndex++;
             while (index < Operators.Count)
             {
-                if (Operators[index].IsAplicable(currentNode.State))
+                if (Operators[index].IsApplicable(currentNode.State))
                 {
                     return Operators[index];
                 }

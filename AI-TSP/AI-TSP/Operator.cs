@@ -14,7 +14,7 @@ namespace AI_TSP
         {
             Next = next;
         }
-        public bool IsAplicable(State state)
+        public bool IsApplicable(State state)
         {
             return !state.Route.Contains(Next);
         }

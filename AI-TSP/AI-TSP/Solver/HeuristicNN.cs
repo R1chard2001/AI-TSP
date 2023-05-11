@@ -14,12 +14,12 @@ namespace AI_TSP
             float len = 0;
             for (int i = 0; i < Operators.Count; i++)
             {
-                if (best == null && Operators[i].IsAplicable(currentState))
+                if (best == null && Operators[i].IsApplicable(currentState))
                 {
                     best = Operators[i];
                     len = Operators[i].Apply(currentState).RouteLength(); 
                 }
-                else if (best != null && Operators[i].IsAplicable(currentState))
+                else if (best != null && Operators[i].IsApplicable(currentState))
                 {
                     State s = Operators[i].Apply(currentState);
                     if (s.RouteLength() < len)
